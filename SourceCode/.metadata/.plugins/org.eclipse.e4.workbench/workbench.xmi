@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_lA63cWOrEeiFqIcXevtATA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_lA63cmOrEeiFqIcXevtATA" bindingContexts="_lA63eGOrEeiFqIcXevtATA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;Process.bwp&quot; tooltip=&quot;RestService.module/Processes/restservice/module/Process.bwp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RestService.module/Processes/restservice/module/Process.bwp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.zion.dc.editor.packageunit&quot; name=&quot;MANIFEST.MF&quot; tooltip=&quot;RestService/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RestService/META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;Process.bwp&quot; tooltip=&quot;RestService.module/Processes/restservice/module/Process.bwp&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RestService.module/Processes/restservice/module/Process.bwp&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.tibco.bw.ui.manifestEditor&quot; name=&quot;MANIFEST.MF&quot; tooltip=&quot;RestService.module/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;persistable path=&quot;/RestService.module/META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_lA63cmOrEeiFqIcXevtATA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_lOojU2OrEeiFqIcXevtATA" label="%trimmedwindow.label.eclipseSDK" x="26" y="26" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
+    <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
+    <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1527644926248"/>
     <tags>topLevel</tags>
     <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_lOojU2OrEeiFqIcXevtATA" selectedElement="_lOojVGOrEeiFqIcXevtATA" horizontal="true">
@@ -42,7 +44,7 @@
           <tags>persp.actionSet:org.eclipse.jdt.ui.JavaActionSet</tags>
           <tags>persp.actionSet:org.eclipse.jdt.ui.SearchActionSet</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_ll3-qmOrEeiFqIcXevtATA" selectedElement="_ll3-s2OrEeiFqIcXevtATA" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_ll3-q2OrEeiFqIcXevtATA" containerData="2387" selectedElement="_ll3-rGOrEeiFqIcXevtATA">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_ll3-q2OrEeiFqIcXevtATA" containerData="1874" selectedElement="_ll3-rGOrEeiFqIcXevtATA">
               <children xsi:type="basic:PartStack" xmi:id="_ll3-rGOrEeiFqIcXevtATA" elementId="topLeft" containerData="6000" selectedElement="_ll3-rWOrEeiFqIcXevtATA">
                 <tags>newtablook</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_ll3-rWOrEeiFqIcXevtATA" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_ll3-oGOrEeiFqIcXevtATA"/>
@@ -55,11 +57,10 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_ll3-smOrEeiFqIcXevtATA" elementId="com.tibco.zion.fileexplorer.views.FileExplorerView" ref="_ll3-oWOrEeiFqIcXevtATA"/>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_ll3-s2OrEeiFqIcXevtATA" containerData="7613" selectedElement="_ll3-tWOrEeiFqIcXevtATA">
-              <children xsi:type="advanced:Placeholder" xmi:id="_ll3-tGOrEeiFqIcXevtATA" elementId="org.eclipse.ui.editorss" containerData="4562" ref="_llu0sGOrEeiFqIcXevtATA"/>
-              <children xsi:type="basic:PartStack" xmi:id="_ll3-tWOrEeiFqIcXevtATA" elementId="bottom" containerData="5438" selectedElement="_ll3-tmOrEeiFqIcXevtATA">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_ll3-s2OrEeiFqIcXevtATA" containerData="8126" selectedElement="_ll3-tGOrEeiFqIcXevtATA">
+              <children xsi:type="advanced:Placeholder" xmi:id="_ll3-tGOrEeiFqIcXevtATA" elementId="org.eclipse.ui.editorss" containerData="4760" ref="_llu0sGOrEeiFqIcXevtATA"/>
+              <children xsi:type="basic:PartStack" xmi:id="_ll3-tWOrEeiFqIcXevtATA" elementId="bottom" containerData="5240" selectedElement="_ll3-uWOrEeiFqIcXevtATA">
                 <tags>newtablook</tags>
-                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_ll3-tmOrEeiFqIcXevtATA" elementId="org.eclipse.ui.views.PropertySheet" ref="_ll3-pWOrEeiFqIcXevtATA"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_ll3-t2OrEeiFqIcXevtATA" elementId="org.eclipse.ui.views.ProblemView" ref="_ll3-pmOrEeiFqIcXevtATA"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_ll3-uGOrEeiFqIcXevtATA" elementId="com.tibco.zion.common.zionhelpview" ref="_ll3-p2OrEeiFqIcXevtATA"/>
@@ -93,14 +94,29 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_llu0sGOrEeiFqIcXevtATA" elementId="org.eclipse.ui.editorss" selectedElement="_llu0sWOrEeiFqIcXevtATA">
-      <children xsi:type="basic:PartStack" xmi:id="_llu0sWOrEeiFqIcXevtATA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_skKmcGOrEeiFqIcXevtATA">
+      <children xsi:type="basic:PartStack" xmi:id="_llu0sWOrEeiFqIcXevtATA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_lqIhoGOtEeiqJKvxjjqR3w">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_skKmcGOrEeiFqIcXevtATA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Process.bwp" iconURI="platform:/plugin/com.tibco.bw.core.design.process.editor/icons/obj16/bw_process_16x16.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID&quot; name=&quot;Process.bwp&quot; partName=&quot;Process.bwp&quot; title=&quot;Process.bwp&quot; tooltip=&quot;RestService.module/Processes/restservice/module/Process.bwp&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RestService.module/Processes/restservice/module/Process.bwp&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>com.tibco.bw.core.design.process.editor.diagram.part.BWDiagramEditorID</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_lqIhoGOtEeiqJKvxjjqR3w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RestService" iconURI="platform:/plugin/com.tibco.zion.dc/icons/obj16/application_16x16.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.tibco.zion.dc.editor.packageunit&quot; name=&quot;MANIFEST.MF&quot; partName=&quot;RestService&quot; title=&quot;RestService&quot; tooltip=&quot;RestService/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RestService/META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>com.tibco.zion.dc.editor.packageunit</tags>
+          <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_lB_RoGOvEeijKIZVEkG90w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RestService.module" iconURI="platform:/plugin/com.tibco.bw.core.design.project/icons/obj16/plugin_mf_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.tibco.bw.ui.manifestEditor&quot; name=&quot;MANIFEST.MF&quot; partName=&quot;RestService.module&quot; title=&quot;RestService.module&quot; tooltip=&quot;RestService.module/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RestService.module/META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>com.tibco.bw.ui.manifestEditor</tags>
           <tags>removeOnHide</tags>
         </children>
       </children>
@@ -141,31 +157,35 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_lsSIoGOrEeiFqIcXevtATA" elementId="org.eclipse.ui.views.PropertySheet">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_lsSIoWOrEeiFqIcXevtATA" elementId="org.eclipse.ui.views.PropertySheet"/>
+      <toolbar xmi:id="_lsSIoWOrEeiFqIcXevtATA" elementId="org.eclipse.ui.views.PropertySheet" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_ll3-pmOrEeiFqIcXevtATA" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings (1 item)&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;300&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings (1 item)&quot;/>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Warnings&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;397&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_lzb5gGOrEeiFqIcXevtATA" elementId="org.eclipse.ui.views.ProblemView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_lzb5gWOrEeiFqIcXevtATA" elementId="org.eclipse.ui.views.ProblemView"/>
+      <toolbar xmi:id="_lzb5gWOrEeiFqIcXevtATA" elementId="org.eclipse.ui.views.ProblemView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_ll3-p2OrEeiFqIcXevtATA" elementId="com.tibco.zion.common.zionhelpview" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="BW Help" iconURI="platform:/plugin/com.tibco.zion.common/icons/help_16x16.png" closeable="true">
       <tags>View</tags>
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_ll3-qGOrEeiFqIcXevtATA" elementId="org.eclipse.ui.console.ConsoleView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console/icons/full/cview16/console_view.png" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <menus xmi:id="_8IjSoGOxEeijKIZVEkG90w" elementId="org.eclipse.ui.console.ConsoleView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_8IjSoWOxEeijKIZVEkG90w" elementId="org.eclipse.ui.console.ConsoleView"/>
     </sharedElements>
     <trimBars xmi:id="_lA63c2OrEeiFqIcXevtATA" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/org.eclipse.ui.workbench">
       <children xsi:type="menu:ToolBar" xmi:id="_lQHxEGOrEeiFqIcXevtATA" elementId="group.file" toBeRendered="false">
@@ -174,7 +194,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lQHxEmOrEeiFqIcXevtATA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_lQHxJGOrEeiFqIcXevtATA" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_lBXkNWOrEeiFqIcXevtATA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_gIelB2OvEeijKIZVEkG90w" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_lBXkNWOrEeiFqIcXevtATA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lQHxE2OrEeiFqIcXevtATA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -198,7 +218,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lQHxF2OrEeiFqIcXevtATA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_lQHxLmOrEeiFqIcXevtATA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_lBXjrmOrEeiFqIcXevtATA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_gInu-WOvEeijKIZVEkG90w" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_lBXjrmOrEeiFqIcXevtATA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lQHxGGOrEeiFqIcXevtATA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
