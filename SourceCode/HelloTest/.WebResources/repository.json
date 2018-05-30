@@ -1,0 +1,7 @@
+{
+    "records": [],
+    "resources": [{
+        "location": "Service Descriptors/hellotest.Process-hellogv.json",
+        "type": "generated"
+    }]
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:rest="http://xsd.tns.tibco.com/bw/models/binding/rest" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scact="http://xsd.tns.tibco.com/amf/models/sca/componentType" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_dcWjsGO0Eeio3b4hbNofAw" targetNamespace="http://tns.tibco.com/bw/composite/HelloTest" name="HelloTest" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:service xmi:id="_rOgE8mO0Eeio3b4hbNofAw" name="hellogv" promote="ComponentProcess/hellogv">
+    <sca:interface.wsdl xmi:id="_rOpO4WO0Eeio3b4hbNofAw" interface="http://xmlns.example.com/20180530025217PLT#wsdl.interface(hellogv)"/>
+    <scaext:binding xsi:type="rest:RestServiceBinding" xmi:id="_rOy_4GO0Eeio3b4hbNofAw" name="RestService" path="/hellogv/{Name}" docBasePath="http://localhost:7777/HelloTest" docResourcePath="hellogv" basePath="/" connector="hellotest.hellogv" structuredData="true" technologyVersion="2.0" implementation="Service Descriptors/hellotest.Process-hellogv.json">
+      <operation xmi:id="_rOy_4WO0Eeio3b4hbNofAw" operationName="get" nickname="get-hellogv" httpMethod="GET" responseStyle="element">
+        <clientFormat>json</clientFormat>
+        <clientRequestFormat>json</clientRequestFormat>
+      </operation>
+      <parameters xmi:id="_rPsXwGO0Eeio3b4hbNofAw">
+        <parameterMapping xmi:id="_rPsXwWO0Eeio3b4hbNofAw" parameterName="Name" parameterType="Path" required="true"/>
+      </parameters>
+    </scaext:binding>
+    <scact:bindingAdjunct xmi:id="_rOy_4mO0Eeio3b4hbNofAw" bindingName="RestService"/>
+  </sca:service>
+  <sca:property xmi:id="_d_-OIGO0Eeio3b4hbNofAw" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_eAJNQGO0Eeio3b4hbNofAw" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_eARwIGO0Eeio3b4hbNofAw" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_eARwIWO0Eeio3b4hbNofAw" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_eARwImO0Eeio3b4hbNofAw" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_eAa6EGO0Eeio3b4hbNofAw" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_eAa6EWO0Eeio3b4hbNofAw" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_tVzIoGO0Eeio3b4hbNofAw" name="Name" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_dxE2gGO0Eeio3b4hbNofAw" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_dxE2gWO0Eeio3b4hbNofAw" processName="hellotest.Process"/>
+    <sca:service xmi:id="_rOgE8GO0Eeio3b4hbNofAw" name="hellogv">
+      <sca:interface.wsdl xmi:id="_rOgE8WO0Eeio3b4hbNofAw" interface="http://xmlns.example.com/20180530025217PLT#wsdl.interface(hellogv)"/>
+    </sca:service>
+  </sca:component>
+</sca:composite>

@@ -1,7 +1,0 @@
-{
-    "records": [],
-    "resources": [{
-        "location": "Service Descriptors/restservice.module.Process-Resource.json",
-        "type": "generated"
-    }]
-}
