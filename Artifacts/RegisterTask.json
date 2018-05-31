@@ -1,9 +1,9 @@
 {
-    "family": "restgvtask",
+    "family": "jenkinsgouthamtask",
     "containerDefinitions": [
         {
-            "name": "restgvcontainer",
-            "image": "717904358179.dkr.ecr.us-east-2.amazonaws.com/restgvservicerepo:latest",
+            "name": "jenkinsgouthamcontainer",
+            "image": "717904358179.dkr.ecr.us-east-2.amazonaws.com/jenkinsgouthamrepo:latest",
             "cpu": 10,
             "memory": 1024,
             "portMappings": [
@@ -13,10 +13,6 @@
                 }
             ],
 			"environment": [
-			  {
-				"name": "APP_CONFIG_PROFILE",
-				"value": "default"
-			  },
 			  {
 				"name": "CONSUL_SERVER_URL",
 				"value": "http://ec2-54-163-163-231.compute-1.amazonaws.com:8500"
