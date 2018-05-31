@@ -1,9 +1,9 @@
 {
-    "family": "jenkinsgouthamtask",
+    "family": "freshnewtask",
     "containerDefinitions": [
         {
-            "name": "jenkinsgouthamcontainer",
-            "image": "717904358179.dkr.ecr.us-east-2.amazonaws.com/jenkinsgouthamrepo:latest",
+            "name": "freshnewcontainer",
+            "image": "717904358179.dkr.ecr.us-east-2.amazonaws.com/freshnewrepo:latest",
             "cpu": 10,
             "memory": 1024,
             "portMappings": [
@@ -18,8 +18,8 @@
 				"value": "http://ec2-54-163-163-231.compute-1.amazonaws.com:8500"
 			  },
 			  {
-				"name": "BW_LOGLEVEL",
-				"value": "INFO"
+				"name": "APP_CONFIG_PROFILE",
+				"value": "default"
 			  }
 			],
 
