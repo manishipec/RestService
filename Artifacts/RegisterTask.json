@@ -2,13 +2,13 @@
     "family": "freshnewtask",
     "containerDefinitions": [
         {
-            "name": "freshnewcontainer",
-            "image": "717904358179.dkr.ecr.us-east-2.amazonaws.com/freshnewrepo:3.0",
+            "name": "freshnewcontainer2",
+            "image": "717904358179.dkr.ecr.us-east-2.amazonaws.com/freshnewrepo2:latest",
             "cpu": 10,
             "memory": 1024,
             "portMappings": [
                 {
-                    "containerPort": 8080,
+                    "containerPort": 8075,
                     "hostPort": 0
                 }
             ],
