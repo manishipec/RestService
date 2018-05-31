@@ -18,6 +18,7 @@
   <sca:property xmi:id="__yIvwGRyEeiA8OMTT6-fAA" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="__yLMAGRyEeiA8OMTT6-fAA" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
   <sca:property xmi:id="__yNBMGRyEeiA8OMTT6-fAA" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_L4oYwGR5Eeiu2P7-spfKlQ" name="Name" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:component xmi:id="__n09MGRyEeiA8OMTT6-fAA" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
     <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="__n09MWRyEeiA8OMTT6-fAA" processName="jenkinstest.Process"/>
     <sca:service xmi:id="_CuB5IGRzEeiA8OMTT6-fAA" name="jenkins">
