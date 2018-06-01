@@ -1,4 +1,4 @@
-!SESSION 2018-05-31 23:49:37.221 -----------------------------------------------
+!SESSION 2018-06-01 00:00:26.049 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=1.8.0_144
 java.vendor=Oracle Corporation
@@ -6,97 +6,97 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -showlocation
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation
 
-!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2018-05-31 23:49:38.225
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2018-06-01 00:00:27.186
 !MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
 
-!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2018-05-31 23:49:38.226
+!ENTRY com.tibco.bw.sharedresource.jdbc.driver.template 4 0 2018-06-01 00:00:27.187
 !MESSAGE [SCR] Component definition XMLs not found in bundle com.tibco.bw.sharedresource.jdbc.driver.template. The component header value is OSGI-INF/*.xml
 
-!ENTRY org.eclipse.emf.ecore 2 0 2018-05-31 23:49:41.891
+!ENTRY org.eclipse.emf.ecore 2 0 2018-06-01 00:00:34.801
 !MESSAGE Both 'com.tibco.amf.sharedresource.model.transport.eclipse' and 'com.tibco.amf.sharedresource.model.transport.eclipse' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/httpconnector'
 
-!ENTRY org.eclipse.emf.ecore 2 0 2018-05-31 23:49:41.893
+!ENTRY org.eclipse.emf.ecore 2 0 2018-06-01 00:00:34.803
 !MESSAGE Both 'com.tibco.bw.core.model.eclipse' and 'com.tibco.bw.core.model.eclipse' register a package for 'http://ns.tibco.com/bw/core/internalactivity'
 
-!ENTRY org.eclipse.emf.ecore 2 0 2018-05-31 23:49:41.894
+!ENTRY org.eclipse.emf.ecore 2 0 2018-06-01 00:00:34.805
 !MESSAGE Both 'com.tibco.bw.sharedresource.http.model' and 'com.tibco.bw.sharedresource.http.model' register a package for 'http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient'
 
-!ENTRY org.eclipse.emf.ecore 2 0 2018-05-31 23:49:41.895
+!ENTRY org.eclipse.emf.ecore 2 0 2018-06-01 00:00:34.805
 !MESSAGE Both 'com.tibco.amf.sharedresource.model.data.eclipse' and 'com.tibco.bw.sharedresource.jdbc.model' register a package for 'http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc'
 
-!ENTRY org.eclipse.emf.ecore 2 0 2018-05-31 23:49:41.896
+!ENTRY org.eclipse.emf.ecore 2 0 2018-06-01 00:00:34.807
 !MESSAGE Both 'com.tibco.amf.sca.model.eclipse' and 'com.tibco.bw.sharedresource.ws.policy.model' register a package for 'http://schemas.xmlsoap.org/ws/2004/09/policy'
 
-!ENTRY org.eclipse.emf.ecore 2 0 2018-05-31 23:49:41.897
+!ENTRY org.eclipse.emf.ecore 2 0 2018-06-01 00:00:34.807
 !MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/extensions/soap/tibcojms'
 
-!ENTRY org.eclipse.emf.ecore 2 0 2018-05-31 23:49:41.897
+!ENTRY org.eclipse.emf.ecore 2 0 2018-06-01 00:00:34.807
 !MESSAGE Both 'com.tibco.amf.wsdl.extensions.eclipse' and 'com.tibco.bw.wsdl.extensions' register a package for 'http://xsd.tns.tibco.com/wsdl/models/soap12'
 
-!ENTRY org.eclipse.emf.ecore 2 0 2018-05-31 23:49:41.903
+!ENTRY org.eclipse.emf.ecore 2 0 2018-06-01 00:00:34.813
 !MESSAGE Both 'com.tibco.bw.sharedresource.identity.model' and 'com.tibco.bw.sharedresource.ws.policy.model' register an extension parser for 'policy'
 
-!ENTRY org.eclipse.emf.ecore 2 0 2018-05-31 23:49:41.903
+!ENTRY org.eclipse.emf.ecore 2 0 2018-06-01 00:00:34.813
 !MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'auth'
 
-!ENTRY org.eclipse.emf.ecore 2 0 2018-05-31 23:49:41.903
+!ENTRY org.eclipse.emf.ecore 2 0 2018-06-01 00:00:34.813
 !MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'identity'
 
-!ENTRY org.eclipse.emf.ecore 2 0 2018-05-31 23:49:41.903
+!ENTRY org.eclipse.emf.ecore 2 0 2018-06-01 00:00:34.814
 !MESSAGE Both 'com.tibco.bw.sharedresource.trinity.securityprovider.model' and 'com.tibco.trinity.securityprovider.model.eclipse' register an extension parser for 'userid'
 
-!ENTRY org.eclipse.ui 2 0 2018-05-31 23:49:42.173
+!ENTRY org.eclipse.ui 2 0 2018-06-01 00:00:35.082
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-31 23:49:42.173
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-01 00:00:35.082
 !MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
-!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-31 23:49:42.173
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-01 00:00:35.082
 !MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
-!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-31 23:49:42.173
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-01 00:00:35.082
 !MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
 
-!ENTRY org.eclipse.ui 2 0 2018-05-31 23:49:42.552
+!ENTRY org.eclipse.ui 2 0 2018-06-01 00:00:35.457
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-31 23:49:42.552
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-01 00:00:35.457
 !MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.migration2x.ui', id='com.tibco.amf.tools.migration2x.ui.migrateTo3xCommand', categoryId='com.tibco.amf.tools.composite.resources.ui.TasksCategory'
-!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-31 23:49:42.552
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-01 00:00:35.457
 !MESSAGE Commands should really have a category: plug-in='com.tibco.amf.tools.packager.ui', id='com.tibco.amf.tools.packager.ui.createDaa.command', categoryId='tibco.category.soa_platform'
-!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-31 23:49:42.552
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-01 00:00:35.457
 !MESSAGE Commands should really have a category: plug-in='com.tibco.bw.binding.soap.axis2.design', id='com.tibco.bw.binding.soap.axis2.design.generateWSDL', categoryId='tibco.category.soa_platform'
 
-!ENTRY org.eclipse.emf.validation 2 70 2018-05-31 23:49:47.839
+!ENTRY org.eclipse.emf.validation 2 70 2018-06-01 00:00:40.685
 !MESSAGE Constraint "com.tibco.amf.design.sr.core.internal.validation.constraints.SharedResourceNotInWorkspace" could not find target EMF type "Property."
 
-!ENTRY org.eclipse.emf.validation 2 70 2018-05-31 23:49:47.859
+!ENTRY org.eclipse.emf.validation 2 70 2018-06-01 00:00:40.702
 !MESSAGE Constraint "com.tibco.bw.sharedresource.http.design.com.tibco.amf.design.sr.transport.http.ssl.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
 
-!ENTRY org.eclipse.emf.validation 2 70 2018-05-31 23:49:47.875
+!ENTRY org.eclipse.emf.validation 2 70 2018-06-01 00:00:40.717
 !MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.HasOneStoreConstraint" could not find target EMF type "SubjectConfiguration."
 
-!ENTRY org.eclipse.emf.validation 2 70 2018-05-31 23:49:47.875
+!ENTRY org.eclipse.emf.validation 2 70 2018-06-01 00:00:40.717
 !MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyAliasNotNullConstraint" could not find target EMF type "SubjectConfiguration."
 
-!ENTRY org.eclipse.emf.validation 2 70 2018-05-31 23:49:47.875
+!ENTRY org.eclipse.emf.validation 2 70 2018-06-01 00:00:40.717
 !MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.subject.editor.com.tibco.trinity.identity.subject.editor.validation.KeyPasswordNotNullConstraint" could not find target EMF type "SubjectConfiguration."
 
-!ENTRY org.eclipse.emf.validation 2 70 2018-05-31 23:49:47.876
+!ENTRY org.eclipse.emf.validation 2 70 2018-06-01 00:00:40.717
 !MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.identity.trust.editor.constraint" could not find target EMF type "TrustConfiguration."
 
-!ENTRY org.eclipse.emf.validation 2 70 2018-05-31 23:49:47.879
+!ENTRY org.eclipse.emf.validation 2 70 2018-06-01 00:00:40.720
 !MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.trinity.ssl.editor.invalid.remote.host.constraint" could not find target EMF type "SSLServerConfiguration."
 
-!ENTRY org.eclipse.emf.validation 2 70 2018-05-31 23:49:47.879
+!ENTRY org.eclipse.emf.validation 2 70 2018-06-01 00:00:40.721
 !MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.client.editor.trust.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
 
-!ENTRY org.eclipse.emf.validation 2 70 2018-05-31 23:49:47.880
+!ENTRY org.eclipse.emf.validation 2 70 2018-06-01 00:00:40.721
 !MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.client.editor.subject.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
 
-!ENTRY org.eclipse.emf.validation 2 70 2018-05-31 23:49:47.883
+!ENTRY org.eclipse.emf.validation 2 70 2018-06-01 00:00:40.724
 !MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.server.editor.trust.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
 
-!ENTRY org.eclipse.emf.validation 2 70 2018-05-31 23:49:47.883
+!ENTRY org.eclipse.emf.validation 2 70 2018-06-01 00:00:40.724
 !MESSAGE Constraint "com.tibco.bw.sharedresource.trinity.ssl.editor.com.tibco.bw.sharedresource.trinity.ssl.server.editor.subject.namedResourceReferenceValueNotEmpty" could not find target EMF type "NamedResourceReference."
 
-!ENTRY org.eclipse.ui.workbench 4 2 2018-05-31 23:49:47.979
+!ENTRY org.eclipse.ui.workbench 4 2 2018-06-01 00:00:40.809
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
 !STACK 0
 java.lang.IllegalStateException: Profile not locked due to exception: C:\tibco\bwce\eclipse-platform\bundlepool\1.0\org.eclipse.equinox.p2.engine\profileRegistry\TIBCOBusinessStudio-4.0.profile\.lock (Access is denied)
@@ -112,10 +112,10 @@ java.lang.IllegalStateException: Profile not locked due to exception: C:\tibco\b
 	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY org.eclipse.ui 4 4 2018-05-31 23:49:47.982
+!ENTRY org.eclipse.ui 4 4 2018-06-01 00:00:40.811
 !MESSAGE Unhandled Exception
 
-!ENTRY org.eclipse.equinox.p2.ui.sdk.scheduler 4 0 2018-05-31 23:49:47.982
+!ENTRY org.eclipse.equinox.p2.ui.sdk.scheduler 4 0 2018-06-01 00:00:40.811
 !MESSAGE Unable to execute early startup code for an extension
 !STACK 0
 java.lang.IllegalStateException: Profile not locked due to exception: C:\tibco\bwce\eclipse-platform\bundlepool\1.0\org.eclipse.equinox.p2.engine\profileRegistry\TIBCOBusinessStudio-4.0.profile\.lock (Access is denied)
@@ -131,19 +131,145 @@ java.lang.IllegalStateException: Profile not locked due to exception: C:\tibco\b
 	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2755)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 
-!ENTRY com.tibco.xpd.fragments 4 0 2018-05-31 23:49:47.992
+!ENTRY com.tibco.xpd.fragments 4 0 2018-06-01 00:00:40.848
 !MESSAGE com.tibco.xpd.fragments.internal.FragmentsManager$5.run(FragmentsManager.java:787) FragmentsManager.initialize(): No root categories found!!!
 
-!ENTRY com.tibco.bw.core.design.process.editor 1 0 2018-05-31 23:49:48.061
+!ENTRY com.tibco.bw.core.design.process.editor 1 0 2018-06-01 00:00:40.903
 !MESSAGE ".com.tibco.bw.rad/BWApplication.launch" file is synchronized.
 
-!ENTRY com.tibco.bw.core.design.process.editor 1 0 2018-05-31 23:49:48.073
+!ENTRY com.tibco.bw.core.design.process.editor 1 0 2018-06-01 00:00:40.915
 !MESSAGE ".com.tibco.bw.rad/runtime.target" file is synchronized.
 
-!ENTRY org.eclipse.bpel.validator 1 0 2018-05-31 23:50:44.255
+!ENTRY org.eclipse.bpel.validator 1 0 2018-06-01 00:01:28.152
 !MESSAGE Validator Startup 22ms
 
-!ENTRY org.eclipse.e4.ui.workbench.swt 4 2 2018-05-31 23:50:57.127
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.695
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.696
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.720
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.721
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.855
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.855
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.861
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.861
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.883
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.883
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.888
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.889
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.902
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.902
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.908
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.908
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.921
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.921
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.926
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.927
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.939
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.939
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.944
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.944
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.955
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.956
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.961
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.961
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.972
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.972
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.977
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.977
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.990
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.990
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.994
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:52.995
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:53.003
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:53.003
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:53.012
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:53.013
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:54.125
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2018-06-01 00:01:54.125
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.e4.ui.workbench.swt 4 2 2018-06-01 00:04:38.359
 !MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.e4.ui.workbench.swt".
 !STACK 0
 org.eclipse.e4.core.di.InjectionException: org.eclipse.swt.SWTException: Widget is disposed
@@ -252,8 +378,8 @@ Caused by: org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
 	... 88 more
 
-!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-31 23:50:57.129
-!MESSAGE Exception occurred while unrendering: org.eclipse.e4.ui.model.application.ui.basic.impl.TrimmedWindowImpl@ac417a2 (elementId: IDEWindow, tags: [topLevel, shellMaximized], contributorURI: platform:/plugin/org.eclipse.ui.workbench) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (label: %trimmedwindow.label.eclipseSDK, iconURI: null, tooltip: null, context: null, variables: [], x: 104, y: 104, width: 1024, height: 768)
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-01 00:04:38.360
+!MESSAGE Exception occurred while unrendering: org.eclipse.e4.ui.model.application.ui.basic.impl.TrimmedWindowImpl@ac417a2 (elementId: IDEWindow, tags: [topLevel, shellMaximized], contributorURI: platform:/plugin/org.eclipse.ui.workbench) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (label: %trimmedwindow.label.eclipseSDK, iconURI: null, tooltip: null, context: null, variables: [], x: 78, y: 78, width: 1024, height: 768)
 !STACK 0
 org.eclipse.e4.core.di.InjectionException: org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:62)
