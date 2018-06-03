@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:rest="http://xsd.tns.tibco.com/bw/models/binding/rest" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scact="http://xsd.tns.tibco.com/amf/models/sca/componentType" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_6lDgcGUuEeiV66RtpHvT2w" targetNamespace="http://tns.tibco.com/bw/composite/JenkinsNewTest" name="JenkinsNewTest" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:service xmi:id="__L8MAGUuEeiV66RtpHvT2w" name="jenkins" promote="ComponentProcess/jenkins">
+    <sca:interface.wsdl xmi:id="__MCSoGUuEeiV66RtpHvT2w" interface="http://xmlns.example.com/20180601000122PLT#wsdl.interface(jenkins)"/>
+    <scaext:binding xsi:type="rest:RestServiceBinding" xmi:id="__MJAUGUuEeiV66RtpHvT2w" name="RestService" path="/jenkins" docBasePath="http://localhost:7777/JenkinsNewTest" docResourcePath="jenkins" basePath="/" connector="jenkinsnewtest.jenkins" structuredData="true" technologyVersion="2.0" implementation="Service Descriptors/jenkinsnewtest.Process-jenkins.json">
+      <operation xmi:id="__MMqsGUuEeiV66RtpHvT2w" operationName="get" nickname="get-jenkins" httpMethod="GET" responseStyle="element">
+        <clientFormat>json</clientFormat>
+        <clientRequestFormat>json</clientRequestFormat>
+      </operation>
+      <parameters xmi:id="__NC_QGUuEeiV66RtpHvT2w"/>
+    </scaext:binding>
+    <scact:bindingAdjunct xmi:id="__MMqsWUuEeiV66RtpHvT2w" bindingName="RestService"/>
+  </sca:service>
+  <sca:property xmi:id="_7HamoGUuEeiV66RtpHvT2w" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_7HllwGUuEeiV66RtpHvT2w" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_7HpQIGUuEeiV66RtpHvT2w" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_7Hs6gGUuEeiV66RtpHvT2w" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_7Hwk4GUuEeiV66RtpHvT2w" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_7H0PQGUuEeiV66RtpHvT2w" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_7H3SkGUuEeiV66RtpHvT2w" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_Aq3BEGUvEeiV66RtpHvT2w" name="Name" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_66AcwGUuEeiV66RtpHvT2w" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_66Bq4GUuEeiV66RtpHvT2w" processName="jenkinsnewtest.Process"/>
+    <sca:service xmi:id="__L4hoGUuEeiV66RtpHvT2w" name="jenkins">
+      <sca:interface.wsdl xmi:id="__L5IsGUuEeiV66RtpHvT2w" interface="http://xmlns.example.com/20180601000122PLT#wsdl.interface(jenkins)"/>
+    </sca:service>
+  </sca:component>
+</sca:composite>
