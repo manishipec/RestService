@@ -13,6 +13,7 @@
     <config:folder id="_6fENMGUuEeiV66RtpHvT2w" kind="com.tibco.bw.process.folder" location="Processes"/>
     <config:folder id="_6fGCYGUuEeiV66RtpHvT2w" kind="wsdl" location="Service Descriptors"/>
     <config:folder id="_6fHQgGUuEeiV66RtpHvT2w" kind="com.tibco.amx.zion.resource" location="Resources"/>
+    <config:folder id="_6fJFsGUuEeiV66RtpHvT2w" kind="com.tibco.amx.zion.policy" location="Policies"/>
     <config:folder id="_6iy2oGUuEeiV66RtpHvT2w" kind="com.tibco.bw.module.folder" location="META-INF"/>
   </config:specialFolders>
 </config:ProjectConfig>
