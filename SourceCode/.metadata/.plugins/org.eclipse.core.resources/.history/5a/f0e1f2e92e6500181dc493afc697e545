@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config:ProjectConfig xmlns:config="http://www.tibco.com/XPD/projectConfig">
+  <projectDetails id="com.example.jenkinsnewtest">
+    <globalDestinations/>
+  </projectDetails>
+  <config:specialFolders>
+    <config:folder id="_6e4nAGUuEeiV66RtpHvT2w" kind="com.tibco.amx.zion.schema" location="Schemas"/>
+    <config:folder id="_6fENMGUuEeiV66RtpHvT2w" kind="com.tibco.bw.process.folder" location="Processes"/>
+    <config:folder id="_6fGCYGUuEeiV66RtpHvT2w" kind="wsdl" location="Service Descriptors"/>
+    <config:folder id="_6fHQgGUuEeiV66RtpHvT2w" kind="com.tibco.amx.zion.resource" location="Resources"/>
+    <config:folder id="_6fJFsGUuEeiV66RtpHvT2w" kind="com.tibco.amx.zion.policy" location="Policies"/>
+  </config:specialFolders>
+</config:ProjectConfig>
