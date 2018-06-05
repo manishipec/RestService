@@ -8,7 +8,7 @@
             "memory": 1024,
             "portMappings": [
                 {
-                    "containerPort": 8075,
+                    "containerPort": 8065,
                     "hostPort": 0
                 }
             ],
