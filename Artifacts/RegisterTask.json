@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "freshnewcontainer2",
-            "image": "717904358179.dkr.ecr.us-east-2.amazonaws.com/freshnewrepo3:latest",
+            "image": "717904358179.dkr.ecr.us-east-2.amazonaws.com/freshnewrepo4:latest",
             "cpu": 10,
             "memory": 1024,
             "portMappings": [
